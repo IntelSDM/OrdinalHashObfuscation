@@ -3,7 +3,7 @@ Built for LLVM 19.1 - Windows x64 <br> <br>
 
 Within obfuscation you will see certain people removing constants within conditions using hashes. This is nearly always only an equivalence comparison. <br>
 ```c
-if (runtimehash(val) == 0xdeadbeaf)
+if (runtimehash(val) == 0xdeadbeef)
 ``` 
 Instead of 
 
